@@ -1,0 +1,152 @@
+.ads-title {
+    text-align: center;
+    color: #000;
+    background: #36A1CE;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.ads-margin {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+
+    /* position: relative; */
+}
+
+/* .fix_title_ads .ads-title {
+    background: unset;
+    position: absolute;
+    top: 0;
+    width: 100%;
+} */
+
+.ads,
+.ads-slot img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.ads-slot {
+    overflow: hidden
+}
+
+.myads {
+    display: block;
+    /* position: absolute;
+    top: 85px; */
+    margin-bottom: 20px;
+}
+
+@media (max-width:1365px) {
+    .myads {
+        display: none;
+    }
+}
+
+/* .ads_left {
+    left: 0;
+    text-align: left;
+
+}
+.ads_right {
+    right: 0;
+    text-align: right;
+} */
+
+.ads-doc {
+    width: 300px;
+    max-width: 300px
+}
+
+/* @media (min-width:1366px) {
+    .ads-doc {
+        width: 300px;
+        max-width: 300px
+    }
+} */
+
+.ads-ngang {
+    width: 300px;
+    max-width: 300px
+}
+
+/* fix */
+@media (min-width:760px) {
+    .ads-ngang {
+        width: 728px;
+        max-width: 728px
+    }
+}
+
+@media (min-width:1440px) {
+    .ads-ngang {
+        width: 768px;
+        max-width: 768px
+    }
+}
+
+@media (min-width:1642px) {
+    .ads-ngang {
+        width: 970px;
+        max-width: 970px
+    }
+}
+
+.ads-home-top {
+    width: 300px;
+    max-width: 300px
+}
+
+/* fix */
+@media (min-width:760px) {
+    .ads-home-top {
+        width: 728px;
+        max-width: 728px
+    }
+}
+
+@media (min-width:1440px) {
+    .ads-home-top {
+        width: 768px;
+        max-width: 768px
+    }
+}
+
+@media (min-width:1642px) {
+    .ads-home-top {
+        width: 970px;
+        max-width: 970px
+    }
+}
+
+.ads-home-bottom {
+    width: 300px;
+    max-width: 300px
+}
+
+/* fix */
+@media (min-width:760px) {
+    .ads-home-bottom {
+        width: 728px;
+        max-width: 728px
+    }
+}
+
+@media (min-width:1440px) {
+    .ads-home-bottom {
+        width: 768px;
+        max-width: 768px
+    }
+}
+
+@media (min-width:1642px) {
+    .ads-home-bottom {
+        width: 970px;
+        max-width: 970px
+    }
+}

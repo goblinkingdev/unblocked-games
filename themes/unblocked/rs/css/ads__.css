@@ -1,0 +1,118 @@
+.ads-margin {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto
+}
+
+/* .myads,
+.ads-doc {
+    width: 300px;
+    max-width: 300px
+} */
+
+.ads-title {
+    text-align: center;
+    color: #000;background: #36A1CE;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.myads {
+    display: none;
+    margin-bottom: 20px;
+}
+
+
+.ads,
+.ads-slot img {
+    width: 100%;
+}
+
+/* @media screen and (max-width:1821px) {
+    .container {
+        width: 1281px
+    }
+} */
+
+.ads-slot {
+    overflow: hidden
+}
+
+.ads-doc,
+.ads-ngang {
+    /* .fix_ngang .ads-ngang { */
+    width: 300px;
+    max-width: 300px
+}
+
+@media (min-width:1008px) {
+    .myads {
+        display: block;
+    }
+
+    .ads-doc {
+        width: 160px;
+        max-width: 160px
+    }
+}
+
+@media (min-width:1366px) {
+    .ads-doc {
+        width: 300px;
+        max-width: 300px
+    }
+}
+
+.ads_right_wrap {
+    display: none
+}
+
+@media (min-width:1201px) {
+    .ads_right_wrap {
+        display: block
+    }
+
+    .block_1200 {
+        display: none
+    }
+}
+
+/* @media (min-width:1124px) {
+    .fix_ngang .ads-ngang {
+        width: 728px;
+        max-width: 728px
+    }
+} */
+
+@media (min-width:760px) {
+    .ads-ngang {
+        width: 728px;
+        max-width: 728px
+    }
+}
+
+@media (min-width:800px) {
+    .ads-ngang {
+        width: 768px;
+        max-width: 768px
+    }
+}
+
+/* @media (min-width:1280px) {
+
+    .fix_ngang .ads-ngang {
+        width: 728px;
+        max-width: 728px
+    }
+} */
+
+@media (min-width:1642px) {
+    .ads-ngang {
+        width: 970px;
+        max-width: 970px
+    }
+}

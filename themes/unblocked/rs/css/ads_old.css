@@ -1,0 +1,168 @@
+.ads-left,
+.ads-right {
+    display: none;
+    position: absolute;
+    top: 155px
+}
+
+.ads-content,
+.ads-left {
+    height: 600px
+}
+
+.ads {
+    width: 100%
+}
+
+.ads-box,
+.ads-margin {
+    width: fit-content
+}
+
+.ads-margin {
+    margin: auto
+}
+
+.ads-left {
+    left: 0;
+    text-align: left
+}
+
+.ads-right {
+    right: 0;
+    text-align: right
+}
+
+.ads-title {
+    text-align: center;
+    color: #000;background: #36A1CE;
+    font-size: 14px;
+    margin: 0;
+    padding: 0
+}
+
+.ads,
+.ads-left,
+.ads-right {
+    z-index: 3
+}
+
+@media (min-width:1340px) {
+
+    .ads-left,
+    .ads-right {
+        display: block
+    }
+
+    .ads-content {
+        width: 160px
+    }
+}
+
+@media (min-width:1880px) {
+
+    .ads-left,
+    .ads-right {
+        display: block
+    }
+
+    .ads-content {
+        width: 300px
+    }
+}
+
+.make-ads {
+    margin-bottom: 24px
+}
+
+.throw-ads-300x600 {
+    width: 300px;
+    min-width: 300px
+}
+
+.throw-ads-160x600 {
+    width: 160px;
+    min-width: 160px
+}
+
+.throw-ads-200x200 .ads {
+    width: 194px !important;
+    min-width: 194px
+}
+
+.throw-ads-160x600,
+.throw-ads-200x200,
+.throw-ads-300x250,
+.throw-ads-300x600,
+.throw-ads-320x100,
+.throw-ads-320x50,
+.throw-ads-468x60,
+.throw-ads-768x90,
+.throw-ads-970x90 {
+    display: none;
+    overflow: hidden
+}
+
+.responsive-block,
+.throw-ads-200x200,
+.throw-ads-300x250,
+.throw-ads-970x90 {
+    display: block
+}
+
+.responsive-none {
+    display: none
+}
+
+@media (min-width:850px) {
+    .responsive-none {
+        display: block
+    }
+
+    .responsive-block {
+        display: none
+    }
+}
+
+@media (min-width:1000px) {
+
+    .throw-ads-768x90,
+    .throw-ads-970x90 {
+        display: block
+    }
+}
+
+@media (min-width:1700px) {
+    .throw-ads-left {
+        width: 160px;
+        min-width: 160px
+    }
+}
+
+@media (min-width:1919px) {
+    .throw-ads-300x600 {
+        display: block
+    }
+}
+
+@media (min-width:600px) and (max-width:999px) {
+    .throw-ads-468x90 {
+        display: block
+    }
+}
+
+@media (min-width:1366px) {
+    .throw-ads-300x600 {
+        width: 160px;
+        min-width: 160px;
+        display: block
+    }
+
+    .throw-ads-160x600 {
+        display: block
+    }
+
+    .w-300 {
+        width: 300px
+    }
+}
