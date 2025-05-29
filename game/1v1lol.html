@@ -138,123 +138,112 @@
     	        	</div>
     	        </div>
             </header>
-    <script>
-    	function setLocalStorage(key, value) {
-    		localStorage.setItem(key, value);
-    	}
-
-    	function getLocalStorage(key) {
-    		return localStorage.getItem(key);
-
-    	}
-
-    	function checkValueOfThemeMode() {
-    		let theme_mode = getLocalStorage('theme_mode'); // value == lightmode / darkmode ==  name_class(js)
-    		document.querySelector('body').classList.add(theme_mode);
-    		if (theme_mode && theme_mode == "lightmode") {
-    			document.querySelector('.light-on').setAttribute("style", "display: none");
-    			document.querySelector('.light-off').setAttribute("style", "display:flex!important");
-    		}
-    	}
-    	checkValueOfThemeMode();
-    </script>
-    <section class="section section--first">
-        <div class="container-fluid mt-4">
-            <div class="row">
-                <div class="col-lg-auto d-none d-xxl-block">
-                    <div class="w-300">
-                                                <div class="ads-slot myads">
-                                <div class="ads">
-        <div class="ads-margin">
-                        <div class="ads-title">
-                    Advertisement
-                </div>
-                    <div class="ads-doc">
+            <script>
+            	function setLocalStorage(key, value) {
+            		localStorage.setItem(key, value);
+            	}
+            
+            	function getLocalStorage(key) {
+            		return localStorage.getItem(key);
+                
+            	}
+            
+            	function checkValueOfThemeMode() {
+            		let theme_mode = getLocalStorage('theme_mode'); // value == lightmode / darkmode ==  name_class(js)
+            		document.querySelector('body').classList.add(theme_mode);
+            		if (theme_mode && theme_mode == "lightmode") {
+            			document.querySelector('.light-on').setAttribute("style", "display: none");
+            			document.querySelector('.light-off').setAttribute("style", "display:flex!important");
+            		}
+            	}
+            	checkValueOfThemeMode();
+            </script>
+            <section class="section section--first">
+                <div class="container-fluid mt-4">
+                    <div class="row">
+                        <div class="col-lg-auto d-none d-xxl-block">
+                            <div class="w-300">
+                                <div class="card-masonry">
+                                    <a class="item" href="game/among-usio" title="Among Us.io">
+                                        <img class="w-100 h-auto" src="/upload/cache/upload/imgs/game/among-usio-cover-m166x166.png" width="166" height="166" title="Among Us.io" alt="Among Us.io img">
+                                        <div class="item-title">
+                                            <p>Among Us.io</p>
+                                        </div>
+                                    </a>
+                                    <a class="item" href="game/retro-bowl" title="Retro Bowl">
+                                        <img class="w-100 h-auto" src="/upload/cache/upload/imgs/screenshot_441-m166x166.jpg" width="166" height="166" title="Retro Bowl" alt="Retro Bowl img">
+                                        <div class="item-title">
+                                            <p>Retro Bowl</p>
+                                        </div>
+                                    </a>
+                                    <a class="item" href="game/build-now-gg" title="Build Now GG">
+                                        <img class="w-100 h-auto" src="/upload/cache/upload/imgs/screenshot_461-m166x166.jpg" width="166" height="166" title="Build Now GG" alt="Build Now GG img">
+                                        <div class="item-title">
+                                            <p>Build Now GG</p>
+                                        </div>
+                                    </a>
+                                    <a class="item" href="game/geometry-dash" title="Geometry Dash">
+                                        <img class="w-100 h-auto" src="/upload/cache/upload/imgs/screenshot_17-m166x166.jpg" width="166" height="166" title="Geometry Dash" alt="Geometry Dash img">
+                                        <div class="item-title">
+                                            <p>Geometry Dash</p>
+                                        </div>
+                                    </a>
+                                    <a class="item" href="game/minecraft" title="Minecraft">
+                                        <img class="w-100 h-auto" src="/upload/cache/upload/imgs/game/minecraft-cover-m166x166.png" width="166" height="166" title="Minecraft" alt="Minecraft img">
+                                        <div class="item-title">
+                                            <p>Minecraft</p>
+                                        </div>
+                                    </a>
+                                    <a class="item" href="game/drive-mad" title="Drive Mad">
+                                        <img class="w-100 h-auto" src="/upload/cache/upload/imgs/screenshot_451-m166x166.jpg" width="166" height="166" title="Drive Mad" alt="Drive Mad img">
+                                        <div class="item-title">
+                                            <p>Drive Mad</p>
+                                        </div>
+                                    </a>
+                                    <a class="item" href="game/moto-x3m-5-pool-party" title="Moto X3M 5: Pool Party">
+                                        <img class="w-100 h-auto" src="/upload/cache/upload/imgs/moto-x3m-5-pool-party-cover-m280x280-m166x166.png" width="166" height="166" title="Moto X3M 5: Pool Party" alt="Moto X3M 5: Pool Party img">
+                                        <div class="item-title">
+                                            <p>Moto X3M 5: Pool Party</p>
+                                        </div>
+                                    </a>
+                                    <a class="item" href="game/monkey-mart" title="Monkey Mart">
+                                        <img class="w-100 h-auto" src="/upload/cache/upload/imgs/screenshot_471-m166x166.jpg" width="166" height="166" title="Monkey Mart" alt="Monkey Mart img">
+                                        <div class="item-title">
+                                            <p>Monkey Mart</p>
+                                        </div>
+                                    </a>
+                                    <a class="item" href="game/slope" title="Slope">
+                                        <img class="w-100 h-auto" src="/upload/cache/upload/imgs/game/slope-racing-3d-cover-m166x166.png" width="166" height="166" title="Slope" alt="Slope img">
+                                        <div class="item-title">
+                                            <p>Slope</p>
+                                        </div>
+                                    </a>
+                                    <a class="item" href="game/spacebar-clicker" title="Spacebar Clicker">
+                                        <img class="w-100 h-auto" src="/upload/cache/upload/imgs/2-m280x280-m166x166.jpg" width="166" height="166" title="Spacebar Clicker" alt="Spacebar Clicker img">
+                                        <div class="item-title">
+                                            <p>Spacebar Clicker</p>
+                                        </div>
+                                    </a>
+                                    <a class="item" href="game/bubble-shooter-pro" title="Bubble Shooter Pro">
+                                        <img class="w-100 h-auto" src="/upload/cache/upload/imgs/bubble-shooter-pro-m166x166.png" width="166" height="166" title="Bubble Shooter Pro" alt="Bubble Shooter Pro img">
+                                        <div class="item-title">
+                                            <p>Bubble Shooter Pro</p>
+                                        </div>
+                                    </a>
+                                    <a class="item" href="game/wormateio" title="Wormate.io">
+                                        <img class="w-100 h-auto" src="/upload/cache/upload/imgs/wormate.io-m166x166.png" width="166" height="166" title="Wormate.io" alt="Wormate.io img">
+                                        <div class="item-title">
+                                            <p>Wormate.io</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-        </div>
-    </div>                        </div>
-                                            <div class="card-masonry">
-                <a class="item" href="/among-usio" title="Among Us.io">
-                <img class="w-100 h-auto" src="/upload/cache/upload/imgs/game/among-usio-cover-m166x166.png" width="166" height="166" title="Among Us.io" alt="Among Us.io img">
-                <div class="item-title">
-                    <p>Among Us.io</p>
+            <div class="col-lg">
+                <div>
+                    <iframe id="iframehtml5" class="iframe-default" src="https://1v1.lol/" width="100%" height="616px" title="1v1.LOL" frameborder="0" border="0" scrolling="auto" allowfullscreen></iframe>
                 </div>
-            </a>
-                <a class="item" href="/retro-bowl" title="Retro Bowl">
-                <img class="w-100 h-auto" src="/upload/cache/upload/imgs/screenshot_441-m166x166.jpg" width="166" height="166" title="Retro Bowl" alt="Retro Bowl img">
-                <div class="item-title">
-                    <p>Retro Bowl</p>
-                </div>
-            </a>
-                <a class="item" href="/build-now-gg" title="Build Now GG">
-                <img class="w-100 h-auto" src="/upload/cache/upload/imgs/screenshot_461-m166x166.jpg" width="166" height="166" title="Build Now GG" alt="Build Now GG img">
-                <div class="item-title">
-                    <p>Build Now GG</p>
-                </div>
-            </a>
-                <a class="item" href="/geometry-dash" title="Geometry Dash">
-                <img class="w-100 h-auto" src="/upload/cache/upload/imgs/screenshot_17-m166x166.jpg" width="166" height="166" title="Geometry Dash" alt="Geometry Dash img">
-                <div class="item-title">
-                    <p>Geometry Dash</p>
-                </div>
-            </a>
-                <a class="item" href="/minecraft" title="Minecraft">
-                <img class="w-100 h-auto" src="/upload/cache/upload/imgs/game/minecraft-cover-m166x166.png" width="166" height="166" title="Minecraft" alt="Minecraft img">
-                <div class="item-title">
-                    <p>Minecraft</p>
-                </div>
-            </a>
-                <a class="item" href="/drive-mad" title="Drive Mad">
-                <img class="w-100 h-auto" src="/upload/cache/upload/imgs/screenshot_451-m166x166.jpg" width="166" height="166" title="Drive Mad" alt="Drive Mad img">
-                <div class="item-title">
-                    <p>Drive Mad</p>
-                </div>
-            </a>
-                <a class="item" href="/moto-x3m-5-pool-party" title="Moto X3M 5: Pool Party">
-                <img class="w-100 h-auto" src="/upload/cache/upload/imgs/moto-x3m-5-pool-party-cover-m280x280-m166x166.png" width="166" height="166" title="Moto X3M 5: Pool Party" alt="Moto X3M 5: Pool Party img">
-                <div class="item-title">
-                    <p>Moto X3M 5: Pool Party</p>
-                </div>
-            </a>
-                <a class="item" href="/monkey-mart" title="Monkey Mart">
-                <img class="w-100 h-auto" src="/upload/cache/upload/imgs/screenshot_471-m166x166.jpg" width="166" height="166" title="Monkey Mart" alt="Monkey Mart img">
-                <div class="item-title">
-                    <p>Monkey Mart</p>
-                </div>
-            </a>
-                <a class="item" href="/slope" title="Slope">
-                <img class="w-100 h-auto" src="/upload/cache/upload/imgs/game/slope-racing-3d-cover-m166x166.png" width="166" height="166" title="Slope" alt="Slope img">
-                <div class="item-title">
-                    <p>Slope</p>
-                </div>
-            </a>
-                <a class="item" href="/spacebar-clicker" title="Spacebar Clicker ">
-                <img class="w-100 h-auto" src="/upload/cache/upload/imgs/2-m280x280-m166x166.jpg" width="166" height="166" title="Spacebar Clicker " alt="Spacebar Clicker  img">
-                <div class="item-title">
-                    <p>Spacebar Clicker </p>
-                </div>
-            </a>
-                <a class="item" href="/bubble-shooter-pro" title="Bubble Shooter Pro">
-                <img class="w-100 h-auto" src="/upload/cache/upload/imgs/bubble-shooter-pro-m166x166.png" width="166" height="166" title="Bubble Shooter Pro" alt="Bubble Shooter Pro img">
-                <div class="item-title">
-                    <p>Bubble Shooter Pro</p>
-                </div>
-            </a>
-                <a class="item" href="/wormateio" title="Wormate.io">
-                <img class="w-100 h-auto" src="/upload/cache/upload/imgs/wormate.io-m166x166.png" width="166" height="166" title="Wormate.io" alt="Wormate.io img">
-                <div class="item-title">
-                    <p>Wormate.io</p>
-                </div>
-            </a>
-        </div>                </div>
-                </div>
-
-                <div class="col-lg">
-                    <div>
-                        <iframe id="iframehtml5" class="iframe-default" src="https://1v1.lol/" width="100%" height="616px" title="1v1.LOL" frameborder="0" border="0" scrolling="auto" allowfullscreen></iframe>
-                    </div>
-                    <div class="px-lg-3">
-
+                <div class="px-lg-3"></div>
     <style>
         .share_btn {
             margin: 4px;
