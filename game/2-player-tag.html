@@ -164,52 +164,50 @@
                 </div>
             </div>
         </header>
+        <script>
+            // Local storage helper functions
+            function setLocalStorage(key, value) {
+                localStorage.setItem(key, value);
+            }
+        
+            function getLocalStorage(key) {
+                return localStorage.getItem(key);
+            }
+        
+            // Theme mode initialization
+            function checkValueOfThemeMode() {
+                const theme_mode = getLocalStorage('theme_mode');
+                document.querySelector('body').classList.add(theme_mode);
 
-<script>
-	function setLocalStorage(key, value) {
-		localStorage.setItem(key, value);
-	}
-
-	function getLocalStorage(key) {
-		return localStorage.getItem(key);
-
-	}
-
-	function checkValueOfThemeMode() {
-		let theme_mode = getLocalStorage('theme_mode'); // value == lightmode / darkmode ==  name_class(js)
-		document.querySelector('body').classList.add(theme_mode);
-		if (theme_mode && theme_mode == "lightmode") {
-			document.querySelector('.light-on').setAttribute("style", "display: none");
-			document.querySelector('.light-off').setAttribute("style", "display:flex!important");
-		}
-	}
-	checkValueOfThemeMode();
-</script>
-<section class="section section--first">
-    <div class="container-fluid mt-4">
-        <div class="row">
-            <div class="col-lg-auto d-none d-xxl-block">
-                <div class="w-300">
-                                            <div class="ads-slot myads">
-                            <div class="ads">
-    <div class="ads-margin">
-                    <div class="ads-title">
-                Advertisement
-            </div>
-                <div class="ads-doc">
-                    </div>
-    </div>
-</div>                        </div>
-                                        <div class="card-masonry">
-    </div>                </div>
-            </div>
-
-            <div class="col-lg">
-                <div>
-                    <iframe id="iframehtml5" class="iframe-default" src="https://games.crazygames.com/en_US/2-player-tag/index.html" width="100%" height="616px" title="2 Player Tag" frameborder="0" border="0" scrolling="auto" allowfullscreen></iframe>
-                </div>
-                <div class="px-lg-3">
+                if (theme_mode && theme_mode === "lightmode") {
+                    document.querySelector('.light-on').setAttribute("style", "display: none");
+                    document.querySelector('.light-off').setAttribute("style", "display: flex !important");
+                }
+            }
+        
+            checkValueOfThemeMode();
+        </script>
+        <section class="section section--first">
+            <div class="container-fluid mt-4">
+                <div class="row">
                     
+                    <!-- Game Content Column -->
+                    <div class="col-lg">
+                        <div>
+                            <iframe 
+                                id="iframehtml5" 
+                                class="iframe-default" 
+                                src="https://games.crazygames.com/en_US/2-player-tag/index.html" 
+                                width="100%" 
+                                height="616px" 
+                                title="2 Player Tag" 
+                                frameborder="0" 
+                                border="0" 
+                                scrolling="auto" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="px-lg-3">
 <style>
     .share_btn {
         margin: 4px;
